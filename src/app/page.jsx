@@ -17,8 +17,8 @@ export default function Home() {
         <OutLicensing />
         <InLicensing />
         <CallToAction />
-        <Testimonials />
-        <Pricing />
+        {/* <Testimonials /> */}
+        {/* <Pricing /> */}
         <Faqs />
       </main>
       <Footer />

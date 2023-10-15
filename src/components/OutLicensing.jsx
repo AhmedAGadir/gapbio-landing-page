@@ -15,15 +15,15 @@ const features = [
     icon: GlobeAsiaAustraliaIcon,
   },
   {
-    name: 'Pitch optimization.',
+    name: 'Pitch optimisation.',
     description:
-      'Optimize your pitch with our AI-powered deck optimizer, ensuring clarity, impact, and memorability.',
+      'Optimise your pitch with our AI-powered deck optimizer, ensuring clarity, impact, and memorability.',
     icon: SparklesIcon,
   },
   {
     name: 'Bespoke events.',
     description:
-      'Host bespoke events to showcase your assets to a curated audience of potential partners.',
+      'Attend bespoke events to showcase your asset to a curated audience of potential partners.',
     icon: UserGroupIcon,
   },
 ]
@@ -53,7 +53,7 @@ export function OutLicensing() {
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-300">
               Stand out to interested audiences, creating opportunities for
-              meaningful interactions
+              meaningful interactions.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

@@ -49,11 +49,10 @@ export function InLicensing() {
               In-Licensing
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-slate-700 sm:text-4xl">
-              Search and screening made simple
+              Search and screen made simple
             </p>
             <p className="mt-6 text-lg leading-8 text-slate-500">
-              Forge partnerships where your expertise is valued and your assets
-              are prioritized
+              Forge partnerships where your expertise is valued.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

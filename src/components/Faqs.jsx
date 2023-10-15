@@ -6,53 +6,36 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'Does Gap Bio support Medtech products?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'Currently, we specialise in oncology drugs, with plans to expand into medtech soon.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'Does Gap Bio operate in other therapeutic areas?',
+      answer:
+        'While our primary focus is oncology, we aim to encompass all therapeutic areas in the future.',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'How does the Deck Optimiser function?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'Upload your .pptx file, and our Deck Optimiser will use specialised models to score and, if you choose, enhance your pitch deck on our platform.',
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'How is user data protected and kept confidential?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'We implement strict, multi-layered security protocols and continuous monitoring to assure robust data protection and confidentiality.',
     },
     {
-      question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+      question: 'What future enhancements are planned for Gap Bio?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'Expect expansions into various therapeutic areas and innovative tech to simplify the licensing process—stay tuned!',
     },
     {
-      question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
+      question: "Who can benefit from Gap Bio's service?",
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
-    },
-  ],
-  [
-    {
-      question: 'How do you generate reports?',
-      answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
-    },
-    {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
-    },
-    {
-      question: 'I lost my password, how do I get into my account?',
-      answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        'Companies actively pursuing in-licensing or out-licensing partnerships for oncology drugs.',
     },
   ],
 ]

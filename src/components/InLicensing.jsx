@@ -21,9 +21,9 @@ const features = [
     icon: ClockIcon,
   },
   {
-    name: 'Done-for-you events.',
+    name: 'Bespoke events.',
     description:
-      'Our team organizes exclusive events on your behalf, facilitating direct interactions and fruitful collaborations.',
+      'We host bespoke events on your behalf and curate an audience of potential partners that could be a strategic fit',
     icon: UsersIcon,
   },
 ]

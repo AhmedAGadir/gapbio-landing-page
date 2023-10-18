@@ -7,6 +7,7 @@ import { Pricing } from '@/components/Pricing'
 import { OutLicensing } from '@/components/OutLicensing'
 import { InLicensing } from '@/components/InLicensing'
 import { Testimonials } from '@/components/Testimonials'
+import About from '@/components/About'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <About />
         <OutLicensing />
         <InLicensing />
         <CallToAction />

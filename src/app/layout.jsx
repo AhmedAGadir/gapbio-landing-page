@@ -5,8 +5,8 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - GapBio',
-    default: 'GapBio - The Partnering Platform for Oncology Drugs.',
+    template: '%s - Gap Bio',
+    default: 'Gap Bio - The Partnering Platform for Oncology Drugs.',
   },
   description:
     'Connecting healthcare pioneers, refining pitches, and accelerating global health innovations.',

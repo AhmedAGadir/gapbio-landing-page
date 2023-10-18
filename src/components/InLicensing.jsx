@@ -45,7 +45,7 @@ export function InLicensing() {
       <Container className="relative">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="my-1 inline-block rounded border border-slate-700 px-2.5 pb-0.5 font-medium text-slate-700">
+            <h2 className="my-1 inline-block rounded border border-indigo-700 px-2.5 pb-0.5 font-medium text-indigo-700">
               In-Licensing
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-slate-700 sm:text-4xl">
@@ -62,11 +62,11 @@ export function InLicensing() {
                   className="group transition-all delay-150 ease-in-out"
                   key={feature.name}
                 >
-                  <div className="flex flex-col rounded-md px-5 py-5 group-hover:bg-blue-400 group-hover:bg-opacity-5">
+                  <div className="flex flex-col rounded-md px-5 py-5 group-hover:bg-indigo-400 group-hover:bg-opacity-5">
                     <dt className="text-base font-semibold leading-7 text-slate-700">
-                      <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-400 bg-opacity-5 group-hover:bg-transparent">
+                      <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-400 bg-opacity-5 group-hover:bg-transparent">
                         <feature.icon
-                          className="h-6 w-6 text-blue-600"
+                          className="h-6 w-6 text-indigo-600"
                           aria-hidden="true"
                         />
                       </div>

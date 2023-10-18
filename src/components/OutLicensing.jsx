@@ -6,6 +6,8 @@ import {
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-out-licensing.png'
 import Image from 'next/image'
+import clsx from 'clsx'
+import { Button } from '@/components/Button'
 
 const features = [
   {
@@ -19,6 +21,7 @@ const features = [
     description:
       'Optimise your pitch with our AI-powered deck optimizer, ensuring clarity, impact, and memorability.',
     icon: SparklesIcon,
+    url: '/deck-optimizer',
   },
   {
     name: 'Bespoke events.',
@@ -27,6 +30,9 @@ const features = [
     icon: UserGroupIcon,
   },
 ]
+
+const ConditionalWrapper = ({ condition, wrapper, children }) =>
+  condition ? wrapper(children) : children
 
 export function OutLicensing() {
   return (
@@ -63,20 +69,44 @@ export function OutLicensing() {
                   className="group transition-all delay-150 ease-in-out"
                   key={feature.name}
                 >
-                  <div className="flex flex-col rounded-md px-5 py-5 group-hover:bg-gray-200 group-hover:bg-opacity-10">
-                    <dt className="text-base font-semibold leading-7 text-gray-200">
-                      <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-gray-200 bg-opacity-10 group-hover:bg-transparent">
-                        <feature.icon
-                          className="h-6 w-6 text-white"
-                          aria-hidden="true"
-                        />
-                      </div>
-                      {feature.name}
-                    </dt>
-                    <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-300">
-                      <p className="flex-auto">{feature.description}</p>
-                    </dd>
-                  </div>
+                  <ConditionalWrapper
+                    condition={feature.url}
+                    wrapper={(children) => <a href={feature.url}>{children}</a>}
+                  >
+                    <div className="flex flex-col rounded-md px-5 py-5 group-hover:bg-gray-200 group-hover:bg-opacity-10">
+                      <dt className="text-base font-semibold leading-7 text-gray-200">
+                        <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-gray-200 bg-opacity-10 group-hover:bg-transparent">
+                          <feature.icon
+                            className="h-6 w-6 text-white"
+                            aria-hidden="true"
+                          />
+                        </div>
+                        <div
+                          className={clsx({
+                            'cursor-pointer transition-all group-hover:underline':
+                              feature.url,
+                          })}
+                        >
+                          {feature.name}
+                        </div>
+                      </dt>
+                      <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-300">
+                        <p className="flex-auto">{feature.description}</p>
+                        {feature.url && (
+                          <span className="mt-4 text-sm font-medium text-blue-100 hover:text-blue-200">
+                            try it out
+                            <span
+                              aria-hidden="true"
+                              className="transition-all group-hover:ml-2"
+                            >
+                              {' '}
+                              &rarr;
+                            </span>
+                          </span>
+                        )}
+                      </dd>
+                    </div>
+                  </ConditionalWrapper>
                 </div>
               ))}
             </dl>

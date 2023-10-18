@@ -15,18 +15,20 @@ const faqs = [
       answer:
         'While our primary focus is oncology, we aim to encompass all therapeutic areas in the future.',
     },
+  ],
+  [
     {
       question: 'How does the Deck Optimiser function?',
       answer:
         'Upload your .pptx file, and our Deck Optimiser will use specialised models to score and, if you choose, enhance your pitch deck on our platform.',
     },
-  ],
-  [
     {
       question: 'How is user data protected and kept confidential?',
       answer:
         'We implement strict, multi-layered security protocols and continuous monitoring to assure robust data protection and confidentiality.',
     },
+  ],
+  [
     {
       question: 'What future enhancements are planned for Gap Bio?',
       answer:

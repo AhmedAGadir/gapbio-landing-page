@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-call-to-action.jpg'
+import { SparklesIcon } from '@heroicons/react/20/solid'
 
 export function CallToAction() {
   return (
@@ -21,15 +22,28 @@ export function CallToAction() {
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Get started today
+            Get Started Today
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            lorem ipsum dolor sit amet consectetur adipiscing elit sed do
-            eiusmod
+            Start connecting with the right partners .
           </p>
-          <Button href="/register" color="white" className="mt-10">
-            Sign up for free
-          </Button>
+          <div className="mt-8 flex flex-col flex-wrap justify-center gap-x-6 gap-y-4 sm:flex-row">
+            <Button href="/register" color="white" className="grow sm:grow-0">
+              Register
+            </Button>
+            <Button
+              className="grow whitespace-nowrap px-3 sm:grow-0"
+              href="/optimise-deck"
+            >
+              <div>
+                <SparklesIcon
+                  className="mr-1 h-6 w-6 text-white"
+                  aria-hidden="true"
+                />
+              </div>
+              Optimise your pitch deck
+            </Button>
+          </div>
         </div>
       </Container>
     </section>

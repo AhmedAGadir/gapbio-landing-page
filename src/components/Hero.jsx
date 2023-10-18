@@ -63,11 +63,11 @@ export function Hero() {
         Whether you’re looking to in-license or out-license a drug, we provide
         the perfect environment for collaboration.
       </p>
-      <div className="mt-8 flex justify-center gap-x-6">
-        <Button className="px-8" href="/register">
+      <div className="mt-8 flex flex-col flex-wrap justify-center gap-x-6 gap-y-4 sm:flex-row">
+        <Button className="grow px-8 sm:grow-0" href="/register">
           Join
         </Button>
-        <Button href="/" variant="outline">
+        <Button href="#about" variant="outline" className="grow sm:grow-0">
           <span>Learn more</span>
         </Button>
       </div>

@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
-import { NavLink } from '@/components/NavLink'
+import { NavLink, NavLinkSamePage } from '@/components/NavLink'
 
 export function Footer() {
   return (
@@ -12,9 +12,9 @@ export function Footer() {
           <Logo className="mx-auto h-10 w-auto" />
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex flex-wrap justify-center gap-x-6">
-              <NavLink href="#about">About</NavLink>
+              <NavLinkSamePage href="#about">About</NavLinkSamePage>
               <NavLink href="/contact">Contact</NavLink>
-              <NavLink href="#faq">FAQ</NavLink>
+              <NavLinkSamePage href="#faq">FAQ</NavLinkSamePage>
               <NavLink href="/optimise-deck">Optimise Your Pitch Deck</NavLink>
               <NavLink href="/privacy-policy">Privacy Policy</NavLink>
               <NavLink href="/terms-and-conditions">Terms & Conditions</NavLink>

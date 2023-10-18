@@ -129,7 +129,7 @@ export default function About() {
                   to{' '}
                   <a
                     href="/optimise-deck"
-                    class="hover:no-underlin font-medium text-indigo-600 underline"
+                    className="font-medium text-indigo-600 underline hover:no-underline"
                   >
                     {' '}
                     enhance your pitch decks

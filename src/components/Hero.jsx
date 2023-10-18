@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import { Button } from '@/components/Button'
+import { Button, ButtonWorkaround } from '@/components/Button'
 import { Container } from '@/components/Container'
 import logoLaravel from '@/images/logos/laravel.svg'
 import logoMirage from '@/images/logos/mirage.svg'
@@ -67,9 +67,13 @@ export function Hero() {
         <Button className="grow px-8 sm:grow-0" href="/register">
           Join
         </Button>
-        <Button href="#about" variant="outline" className="grow sm:grow-0">
+        <ButtonWorkaround
+          href="#about"
+          variant="outline"
+          className="grow sm:grow-0"
+        >
           <span>Learn more</span>
-        </Button>
+        </ButtonWorkaround>
       </div>
       <Stats />
     </Container>

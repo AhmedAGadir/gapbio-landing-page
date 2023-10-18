@@ -43,3 +43,23 @@ export function Button({
     <button className={className} {...props} />
   )
 }
+
+export function ButtonWorkaround({
+  variant = 'solid',
+  color = 'slate',
+  className,
+  href,
+  ...props
+}) {
+  className = clsx(
+    baseStyles[variant],
+    variantStyles[variant][color],
+    className
+  )
+
+  return href ? (
+    <a href={href} className={className} {...props} />
+  ) : (
+    <button className={className} {...props} />
+  )
+}

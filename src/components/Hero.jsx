@@ -67,7 +67,7 @@ export function Hero() {
         <Button className="grow px-8 sm:grow-0" href="/register">
           Join
         </Button>
-        <Button href="#about" variant="outline" className="grow sm:grow-0">
+        <Button href="/#about" variant="outline" className="grow sm:grow-0">
           <span>Learn more</span>
         </Button>
       </div>

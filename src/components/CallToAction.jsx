@@ -22,15 +22,23 @@ export function CallToAction() {
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Get Started Today
+            Get started today
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            Start connecting with the right partners .
+            Start connecting with the right partners.
           </p>
-          <div className="mt-8 flex flex-col flex-wrap justify-center gap-x-6 gap-y-4 sm:flex-row">
+          <div className="my-8 flex flex-col flex-wrap justify-center gap-x-6 gap-y-4 sm:flex-row">
             <Button href="/register" color="white" className="grow sm:grow-0">
               Register
             </Button>
+          </div>
+          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
+            Upscale your pitch
+          </h2>
+          <p className="mt-4 text-lg tracking-tight text-white">
+            Optimise your pitch deck (no registration required).
+          </p>
+          <div className="mt-8 flex flex-col flex-wrap justify-center gap-x-6 gap-y-4 sm:flex-row">
             <Button
               className="grow whitespace-nowrap px-3 sm:grow-0"
               href="/optimise-deck"
@@ -41,7 +49,7 @@ export function CallToAction() {
                   aria-hidden="true"
                 />
               </div>
-              Optimise your pitch deck
+              Try it out for free
             </Button>
           </div>
         </div>

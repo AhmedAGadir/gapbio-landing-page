@@ -7,7 +7,6 @@ import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-out-licensing.png'
 import Image from 'next/image'
 import clsx from 'clsx'
-import { Button } from '@/components/Button'
 
 const features = [
   {
@@ -45,8 +44,8 @@ export function OutLicensing() {
         className="absolute inset-0 max-w-none"
         src={backgroundImage}
         alt=""
-        width={2245}
-        height={1636}
+        fill
+        unoptimized
       />
       <Container className="relative pb-28 pt-20 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">

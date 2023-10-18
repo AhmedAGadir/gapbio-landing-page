@@ -39,8 +39,7 @@ export function InLicensing() {
         className="absolute inset-0 max-w-none"
         src={backgroundImage}
         alt=""
-        width={2245}
-        height={1636}
+        fill
       />
       <Container className="relative">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">

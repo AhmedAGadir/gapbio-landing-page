@@ -71,8 +71,8 @@ export default function TermsConditions() {
       <h3 className="text-md mb-3 font-semibold">Changes to Terms</h3>
       <p className="text-md mb-6 text-slate-500">
         We reserve the right to modify or replace these Terms at any time. If a
-        revision is material, we will try to provide at least [insert number]
-        days' notice before any new terms taking effect.
+        revision is material, we will try to provide at least 30 days notice
+        days notice before any new terms taking effect.
       </p>
 
       <h3 className="text-md mb-3 font-semibold">Contact Us</h3>

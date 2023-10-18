@@ -25,6 +25,7 @@ export function Footer() {
           <div className="flex gap-x-6">
             <Link
               href="https://twitter.com/thegapbio"
+              target="_blank"
               className="group"
               aria-label="Gap Bio on Twitter"
             >
@@ -40,6 +41,7 @@ export function Footer() {
             </Link>
             <Link
               href="https://www.linkedin.com/company/gap-bio"
+              target="_blank"
               className="group"
               aria-label="Gap Bio on LinkedIn"
             >
@@ -60,6 +62,7 @@ export function Footer() {
             </Link>
             <Link
               href="https://www.facebook.com/profile.php?id=61552577785200&amp;sk=about_details"
+              target="_blank"
               className="group"
               aria-label="Gap Bio on Facebook"
             >

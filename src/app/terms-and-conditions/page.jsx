@@ -64,7 +64,7 @@ export default function TermsConditions() {
       <h3 className="text-md mb-3 font-semibold">Governing Law</h3>
       <p className="text-md mb-6 text-slate-500">
         These Terms shall be governed by, and interpreted in accordance with,
-        the laws of [Your Jurisdiction], without regard to its conflict of law
+        the laws of England & Wales, without regard to its conflict of law
         provisions.
       </p>
 
